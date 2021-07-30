@@ -1,0 +1,16 @@
+td {
+    height: 20px;
+    width: 20px;
+}
+tr:nth-child(odd) td:nth-child(1n) {
+    background-color: orange;
+    }
+tr:nth-child(even) td:nth-child(1n) {
+    background-color: black;
+}
+tr:nth-child(1n+1) td:nth-child(2n) {
+    background-color: black;
+    }
+tr:nth-child(2n) td:nth-child(2n) {
+    background-color: orange;
+}

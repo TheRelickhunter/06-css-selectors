@@ -1,0 +1,13 @@
+table thead {
+    background-color: #DBC5FE;
+
+}
+table tbody tr:nth-child(odd) {
+    background-color: grey;
+}
+table tbody tr:nth-child(even) {
+    background-color: white;
+}
+table tbody tr:hover {
+    background-color: #8EB2B2;
+}
